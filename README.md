@@ -1,4 +1,4 @@
-
+<pre>
 fooddata table desicription
 	name 					:	person that types in the data
 	foodname 				:	name of the food
@@ -38,7 +38,7 @@ CREATE TABLE `food` (
 
 
 
-
+</pre>
 
 
 
