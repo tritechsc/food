@@ -1,13 +1,13 @@
 Development Team:
-Mr. Milewski
-Omar
-Brett
-Marisol
-Meagan
-Cory
-Erik
-Shawn
-Mr. Coleman
+Mr. Milewski,
+Omar,
+Brett,
+Marisol,
+Meagan,
+Cory,
+Erik,
+Shawn,
+Mr. Coleman,
 
 <pre>
 fooddata table desicription
