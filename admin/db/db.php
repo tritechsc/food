@@ -1,8 +1,8 @@
 <?php
    $host = "localhost";
    $dbname = "food";
-   $dbuser = "adminfood";
-   $dbpass = "Gotg#422A";
+   $dbuser = "???????";
+   $dbpass = "???????";
    
   	function clean($input, $maxlength)
  	{
