@@ -1,0 +1,5 @@
+AuthType Basic
+AuthUserFile /etc/httpd/conf/htaccess-food
+AuthName "Enter password"
+Require user duck
+

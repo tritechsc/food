@@ -1,0 +1,1 @@
+$last_input   $first_input   $food_input   $food_id_input   $fert_quantity_input   $fert_type_input   $pest_quantity_input   $pest_type_input   $pest_interval_input   $water_quantity_input   $water_type_input   $water_interval_input   $del_method_input   $del_distance_input   $del_waste_input   $gmo_input   $comments_input 

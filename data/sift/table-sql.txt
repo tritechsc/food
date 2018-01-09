@@ -1,0 +1,23 @@
+CREATE TABLE `fooddata` (
+  `last` varchar(64) NOT NULL,
+  `first` varchar(1) NOT NULL,
+  `food_type` varchar(16) NOT NULL,
+  `food_id` varchar(16) NOT NULL,
+  `fert_quantity` varchar(16) NOT NULL,
+  `fert_type` varchar(64) NOT NULL,
+  `pest_quantity` varchar(16) NOT NULL,
+  `pest_type` varchar(64) NOT NULL,
+  `pest_interval` varchar(16) NOT NULL,
+  `water_quantity` varchar(16) NOT NULL,
+  `water_type` varchar(64) NOT NULL,
+  `water_interval` varchar(16) NOT NULL,
+  `delivery_method` varchar(64) NOT NULL,
+  `delivery_distance` varchar(16) NOT NULL,
+  `delivery_waste` varchar(64) NOT NULL,
+  `gmo` varchar(16) NOT NULL,
+  `comments` text NOT NULL,
+  `date_time` varchar(64) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `fooddata`
+  ADD UNIQUE KEY `food_id` (`food_id`);

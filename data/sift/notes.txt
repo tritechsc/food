@@ -1,0 +1,59 @@
+FOOD DATA INPUT 
+
+
+
+		USER INPUT NAME
+1		LAST NAME				
+2		FIRST INITIAL 			
+3		FOOD TYPE		
+4		FOOD ID		
+5		FERTILIZER QUANTITY 	
+6		FERTILIZER TYPE  		
+7		PESTICIDE QUANTITY 		
+8		PESTICIDE TYPE 			
+9		PESTICIDE INTERVAL 		
+10		WATER QUANTITY 			
+11		WATER TYPE 				
+12		WATER INTERVAL 			
+13		DELIVERY METHOD 		
+14		DELIVERY DISTANCE 		
+15		DELIVERY WASTE % 
+16		GMO 
+17 		COMMENTS
+18		DATE AND TIME		
+ 
+ 
+GENETICALLY MODIFIED ORGANISM (GMO) 
+
+					
+ 
+
+COMMENTS   				
+Type comments or remove this this text.
+
+
+CREATE TABLE `hits` (
+  `id` int(32) NOT NULL,
+  `ip` varchar(32) NOT NULL,
+  `timein` varchar(32) NOT NULL,
+  `datein` varchar(32) NOT NULL,
+  `pagename` varchar(32) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+
+
+Submit
+foodname 				:	name of the food
+	fertalizer-quantity 	: 	quantity of feralizer used
+	fertalizer-type 		: 	type of feralizer
+	pesticide-quantity		: 	quantity of pecticide used
+	pesticide-type 			:	type of pecticide used
+	pesticide-interval 		:	pesticide 
+	water-amount			:	how often is the crop watered
+	irrigation-type 		:	type of water used for irrigation
+	water-interval 			: 	how often is is the crop watered
+	gmo 					:	genetically modified organism
+	delivery-method 		: 	how is the crop delivered to the distributor
+	delivery-distance 		: 	how far is it delivered
+	delivery-waste-perent	: 	what percentage is wasted during delivery
+	comments text NOT NULL	: 	comments
